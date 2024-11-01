@@ -1,0 +1,77 @@
+.page-content {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F98866;
+    color: #FFF2D7;
+    font-size: 20px;
+}
+
+.page-title {
+    font-size: 50px;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content, .instruction-p {
+    width: 80%;
+}
+
+button {
+    background-color: #FFF2D7; 
+    color: rgb(27, 3, 3);
+    font-weight: bold;
+    border: none;
+    pointer
+}
+
+button:hover {
+    background-color: #e6d4af; 
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.95); 
+    background-color: #d4c49f;
+}
+
+
+#choices-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#rock-btn, #paper-btn, #scissor-btn, #game-start-btn {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#game-start-btn {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-content {
+        font-size: 16px;
+    }
+
+    .page-title {
+        font-size: 36px;
+    }
+
+    #rock-btn, #paper-btn, #scissor-btn, #game-start-btn {
+        font-size: 16px;
+    }
+}
