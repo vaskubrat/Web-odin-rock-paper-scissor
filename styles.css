@@ -9,6 +9,10 @@
     font-size: 20px;
 }
 
+p {
+    text-align: center;
+}
+
 .page-title {
     font-size: 50px;
     align-items: center;
@@ -51,13 +55,18 @@ button:active {
     margin-bottom: 20px;
 }
 
-#rock-btn, #paper-btn, #scissor-btn, #game-start-btn {
+#rock-btn, #paper-btn, #scissor-btn {
     padding: 10px;
     font-size: 20px;
+}
+
+#rock-btn, #paper-btn, #scissor-btn, #game-start-btn {
     border-radius: 50px;
 }
 
 #game-start-btn {
+    padding: 30px 15px;
+    font-size: 25px;
     align-self: center;
     margin-bottom: 20px;
 }
